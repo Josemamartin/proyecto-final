@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Mi porfolio</title>
+</head>
+
+<body>
+    <!-- Menu principal -->
+    <div class="header-content">
+        <header>
+            <div class="logo">
+                <a href="#">The Teacher</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+                    <li><a href="#porfolio" onclick="seleccionar()">PORFOLIO</a></li>
+                    <li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+    <!-- Fin del menu principal -->
+    <!-- Seccion de inicio -->
+    <section id="inicio" class="inicio">
+        <div class="banner-content">
+            <div class="img-content">
+                <img src="img/hero.png" alt="Chulazo con sueter que le gusta a Maria,  aaaayyyyyy que rico oma!!">
+            </div>
+            <h1>The Teacher</h1>
+            <h2>Profesor - Experto en weberas</h2>
+            <div class="redes">
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-solid fa-rss"></i></a>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de la Seccion de inicio -->
+    <!-- Seccion Sobre mi -->
+    <section id="sobremi" class="sobremi">
+        <div class="content-section">
+            <h2>Sobre Mí</h2>
+            <p><span>Hola, soy tu Teacher. </span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+                nostrum tempora, minima tempore inventore sequi? Veritatis dolorum quo facere vitae dolor, aliquam non
+                perferendis soluta?</p>
+            <div class="fila">
+                <!-- Datos personales -->
+                <div class="col">
+                    <h3>Datos personales</h3>
+                    <ul>
+                        <li>
+                            <strong>Fecha de nacimiento</strong>
+                            15-03-1984
+                        </li>
+                        <li>
+                            <strong>Teléfono</strong>
+                            666154565
+                        </li>
+                        <li>
+                            <strong>Dirección</strong>
+                            <span>San Benito Bercimuelle, 23</span>
+                        </li>
+                        <li>
+                            <strong>Email</strong>
+                            tengounm@il.com
+                        </li>
+                        <li>
+                            <strong>Website</strong>
+                            <a href="https://cositasvarias.com">https://cositasvarias.com</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- Aficiones -->
+                <div class="col">
+                    <h3>Aficiones</h3>
+                    <div class="aficiones-content">
+                        <div class="aficion">
+                            <i class="fa-solid fa-gamepad"></i>
+                            <span>VIDEOJUEGOS</span>
+                        </div>
+                        <div class="aficion">
+                            <i class="fa-solid fa-person-biking"></i>
+                            <span>BICICLETA</span>
+                        </div>
+                        <div class="aficion">
+                            <i class="fa-solid fa-person-hiking"></i>
+                            <span>SENDERISMO</span>
+                        </div>
+                        <div class="aficion">
+                            <i class="fa-solid fa-floppy-disk"></i>
+                            <span>INFORMATICA</span>
+                        </div>
+                        <div class="aficion">
+                            <i class="fa-solid fa-plate-wheat"></i>
+                            <span>GASTRONOMIA</span>
+                        </div>
+                        <div class="aficion">
+                            <i class="fa-brands fa-rebel"></i>
+                            <span>BE THE FORCE</span>
+                        </div>
+                        <div class="aficion">
+                            <i class="fa-solid fa-chess-knight"></i>
+                            <span>AJEDREZ</span>
+                        </div>
+                        <div class="aficion">
+                            <i class="fa-brands fa-wpexplorer"></i>
+                            <span>EXPLORACION</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button>
+                Descarga mi CV <i class="fa-solid fa-download"></i>
+                <span class="overlay"></span>
+            </button>
+        </div>
+    </section>
+    <!-- Fin de Seccion Sobre mi -->
+    <!-- Sección de Skills -->
+    <section id="skills" class="skills">
+        <div class="content-section">
+            <h2>Skills</h2>
+            <div class="fila">
+                <div class="col">
+                    <h3>Skills técnicas</h3>
+                    <div class="skill">
+                        <span>Javascript</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>70%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>HTML5 & CSS3</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>89%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>UX / UI</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>67%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Wordpress</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>84%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>AngularJS</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>58%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Adobe Suite</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>95%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Blender</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>72%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>SCORM</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>92%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <h3>Skills profesionales</h3>
+                    <div class="skill">
+                        <span>Comunicación</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>90%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Proactividad</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>96%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Coordinación de equipos</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>86%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Project Manager</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>83%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Capacidad resolutiva</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>93%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <span>Trabajo en equipo</span>
+                        <div class="barra-skill">
+                            <div class="progreso">
+                                <span>85%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de Sección de Skills -->
+    <!-- Sección Curriculum -->
+    <section id="curriculum" class="curriculum">
+        <div class="content-section">
+            <h2>Curriculum</h2>
+            <div class="fila">
+                <div class="col izquierda">
+                    <h3>Estudios</h3>
+                    <div class="item izq">
+                        <h4>Diseño gráfico</h4>
+                        <span class="ubicacion">IES Islas Filipinas</span>
+                        <span class="fecha">1997 - 2000</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium repellat iste explicabo
+                            nihil dolores vel voluptate quam beatae nemo necessitatibus voluptas repudiandae non modi,
+                            temporibus ullam eligendi, sunt quo, doloribus ea? Autem deleniti perferendis sint?</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Desarrollo web</h4>
+                        <span class="ubicacion">Metropolis</span>
+                        <span class="fecha">2006 - 2017</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos quia atque deserunt
+                            nesciunt consequuntur facilis, sunt possimus molestias soluta alias! Laborum atque beatae
+                            sapiente! Ullam ad maxime vero? Ex.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Unity 3D</h4>
+                        <span class="ubicacion">CTIF Getafe</span>
+                        <span class="fecha">2019 - 2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos quia atque deserunt
+                            nesciunt consequuntur facilis, sunt possimus molestias soluta alias! Laborum atque beatae
+                            sapiente! Ullam ad maxime vero? Ex.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                    <div class="item izq">
+                        <h4>Formador de formadores</h4>
+                        <span class="ubicacion">Teleformación</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos quia atque deserunt
+                            nesciunt consequuntur facilis, sunt possimus molestias soluta alias! Laborum atque beatae
+                            sapiente! Ullam ad maxime vero? Ex.</p>
+                        <div class="conectori">
+                            <div class="circuloi"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col derecha">
+                    <h3>Experiencia laboral</h3>
+                    <div class="item der">
+                        <h4>Docente desarrollo de aplicaciones web</h4>
+                        <span class="ubicacion">ASPASIA Formación</span>
+                        <span class="fecha">2024 - 2024</span>
+                        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusantium repellat iste explicabo
+                            nihil dolores vel voluptate quam beatae nemo necessitatibus voluptas repudiandae non modi,
+                            temporibus ullam eligendi, sunt quo, doloribus ea? Autem deleniti perferendis sint?</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Docente MS Office 365</h4>
+                        <span class="ubicacion">CTIF Getafe</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos quia atque deserunt
+                            nesciunt consequuntur facilis, sunt possimus molestias soluta alias! Laborum atque beatae
+                            sapiente! Ullam ad maxime vero? Ex.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Docente Unity 3D</h4>
+                        <span class="ubicacion">ADECCO Formación</span>
+                        <span class="fecha">2023 - 2023</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos quia atque deserunt
+                            nesciunt consequuntur facilis, sunt possimus molestias soluta alias! Laborum atque beatae
+                            sapiente! Ullam ad maxime vero? Ex.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Modelado con Blender 3D</h4>
+                        <span class="ubicacion">Feval consultores</span>
+                        <span class="fecha">2023 - 2024</span>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos eos quia atque deserunt
+                            nesciunt consequuntur facilis, sunt possimus molestias soluta alias! Laborum atque beatae
+                            sapiente! Ullam ad maxime vero? Ex.</p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de la sección Curriculum -->
+    <!-- Sección Porfolio -->
+    <section id="porfolio" class="porfolio">
+        <div class="content-section">
+            <h2>PORFOLIO</h2>
+            <div class="galeria">
+                <div class="proyecto">
+                    <img src="img/p1.jpg" alt="Paisajes">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p2.jpg" alt="Paisajes">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p3.jpg" alt="Paisajes">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p4.jpg" alt="Paisajes">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p5.jpg" alt="Paisajes">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+                <div class="proyecto">
+                    <img src="img/p6.jpg" alt="Paisajes">
+                    <div class="overlay">
+                        <h3>Diseño creativo</h3>
+                        <p>Fotografía</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de la Sección Porfolio -->
+    <!-- Contacto -->
+    <section id="contacto" class="contacto">
+        <div class="content-section">
+            <h2>CONTACTO</h2>
+            <div class="fila">
+                <!-- Formulario -->
+                <div class="col">
+                    <input type="text" placeholder="Ingresa tu nombre">
+                    <input type="text" placeholder="Correo Electronico">
+                    <input type="text" placeholder="Telefono">
+                    <input type="text" placeholder="tempora">
+                    <textarea name="" id="" col="30" rows="10" placeholder="Mensaje"></textarea>
+                    <Button>Enviar Mensaje <i class="fa-solid fa-paper-plane"> </i>
+                    <span class="overlay"></span>
+                    </Button>
+
+                   
+                </div>
+                <!-- Mapa -->
+                <!-- <div class="col">
+                    <img src="img/ubicacion.png" alt="Ubicacion">
+                    <div class="info">
+                        <ul>
+                            <li>
+                                <i class="fa-solid fa-paper-plane"></i>
+                                Calle San Benito Bercimuelle 23, Calahorra
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-mobile-screen"></i>
+                                Llamanos; 654789654
+                            </li>
+                            <li>
+                                <i class="fa-solid fa-envelope"></i>
+                                Email: tengoun@rroba.com.
+                            </li>
+                        </ul>
+                    </div>
+                </div> -->
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.9400805266732!2d-3.703579124120819!3d40.45446315334212!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229003a79324f%3A0x1c3d3a7ea8d3ac5a!2sC.%20de%20las%20Mercedes%2C%2019%2C%20Tetu%C3%A1n%2C%2028020%20Madrid!5e0!3m2!1ses!2ses!4v1717400433732!5m2!1ses!2ses" width="600" height="560" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+    <!-- Fin de contacto -->
+    <!-- Footer -->
+    <footer>
+        <a href="#inicio" class="arriba">
+            <i class="fa-solid fa-angles-up"></i>
+        </a>
+        <div class="redes">
+            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-solid fa-rss"></i></a>
+        </div>
+
+    </footer>
+
+    <!-- Fin Footer -->
+    <!-- Javascript -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>

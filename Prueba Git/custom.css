@@ -1,0 +1,27 @@
+    .prueba {display: block;
+    margin-block-start: 1.33em;
+    margin-block-end: 1.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: inherit;
+    unicode-bidi: isolate;
+    }
+    
+
+    h4{
+        color: green;
+        
+    }
+    h1{
+        color: chartreuse;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    h2{
+        color: blueviolet;
+        font-family:monospace;
+    }
+
+    h5{
+        color: aqua;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
